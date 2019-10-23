@@ -32,5 +32,6 @@ public class DemoTest {
 
 		driver.get("https://www.firstcry.com/");
 		driver.close();
+		driver.quit();
 	}
 }
